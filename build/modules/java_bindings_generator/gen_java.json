@@ -1,0 +1,20 @@
+{
+  "rootdir": "/home/ppc2774/opencv-4.1.2",
+  "modules": [
+    { "name": "core", "location": "modules/core" },
+    { "name": "imgproc", "location": "modules/imgproc" },
+    { "name": "ml", "location": "modules/ml" },
+    { "name": "photo", "location": "modules/photo" },
+    { "name": "features2d", "location": "modules/features2d" },
+    { "name": "imgcodecs", "location": "modules/imgcodecs" },
+    { "name": "videoio", "location": "modules/videoio" },
+    { "name": "calib3d", "location": "modules/calib3d" },
+    { "name": "objdetect", "location": "modules/objdetect" },
+    { "name": "video", "location": "modules/video" }
+  ],
+  "files_remap": [
+    { "src": "modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java.in", "target": "/home/ppc2774/opencv-4.1.2/build/configured/modules/java/generator/android/java/org/opencv/android/OpenCVLoader.java" },
+    { "src": "modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java.in", "target": "/home/ppc2774/opencv-4.1.2/build/configured/modules/java/generator/src/java/org/opencv/osgi/OpenCVNativeLoader.java" },
+    { "src": "modules/core/misc/java/src/java/core+Core.jcode.in", "target": "/home/ppc2774/opencv-4.1.2/build/configured/modules/core/misc/java/src/java/core+Core.jcode" }
+  ]
+}
