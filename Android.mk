@@ -9,7 +9,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := opencv_libjpeg
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -75,7 +75,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := opencv_zlib
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -141,7 +141,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := opencv_libpng
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -214,7 +214,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_core
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -288,7 +288,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_imgproc
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -372,7 +372,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_imgcodecs
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -453,7 +453,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_videoio
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -542,7 +542,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_highgui
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -624,7 +624,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_video
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -704,7 +704,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_calib3d
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -783,7 +783,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_features2d
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -863,7 +863,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_objdetect
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -943,7 +943,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_ml
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -1019,7 +1019,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_flann
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -1095,7 +1095,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_photo
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -1172,7 +1172,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_stitching
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
@@ -1252,7 +1252,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := libopencv_compile_test
 
 LOCAL_MULTILIB := 64
-LOCAL_VENDOR_MODULE := true
+#LOCAL_VENDOR_MODULE := true
 
 LOCAL_RTTI_FLAG := -frtti
 
